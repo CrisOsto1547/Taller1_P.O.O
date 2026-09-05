@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="NzIHVoWsO3gTHdHqWV93">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CuentaBancaria" vertex="1">
+          <mxGeometry height="192" width="170" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-2" parent="EvDdTm64aMz2LxAa_TAM-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Titular: String&lt;div&gt;-Saldo: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-3" parent="EvDdTm64aMz2LxAa_TAM-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-4" parent="EvDdTm64aMz2LxAa_TAM-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Consignar(monto: double)&lt;div&gt;+ retirar(monto: double)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="170" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Producto" vertex="1">
+          <mxGeometry height="192" width="170" x="390" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-6" parent="EvDdTm64aMz2LxAa_TAM-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: String&lt;div&gt;-precio: double&lt;/div&gt;&lt;div&gt;-stock: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-7" parent="EvDdTm64aMz2LxAa_TAM-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDdTm64aMz2LxAa_TAM-8" parent="EvDdTm64aMz2LxAa_TAM-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ RegistrarVenta(cantidad)&lt;div&gt;+Reponer(cantidad)&lt;/div&gt;&lt;div&gt;+MostrarInformacion()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="170" y="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
