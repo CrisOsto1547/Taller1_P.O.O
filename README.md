@@ -9,7 +9,7 @@
 
             Respuestas
 
-1.   Diferencia entre la clase CuentaBancaria y un objeto CuentaBancaria:
+   1.Diferencia entre la clase CuentaBancaria y un objeto CuentaBancaria:
 La clase CuentaBancaria es el molde o plantilla que define qué atributos y métodos tendrá una cuenta. Un objeto CuentaBancaria es una instancia concreta creada a partir de esa clase, con sus propios valores.
 Por ejemplo, CuentaBancaria sería el molde y a sería una cuenta específica creada con ese molde.
 
